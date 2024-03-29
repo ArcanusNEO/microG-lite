@@ -34,6 +34,7 @@
     <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <permission name="android.permission.RECEIVE_SMS"/>
     <permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
     <permission name="android.permission.SYSTEM_ALERT_WINDOW"/>
     <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
     <permission name="android.permission.UPDATE_DEVICE_STATS"/>
@@ -52,6 +53,12 @@
     <permission name="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK"/>
     <permission name="com.google.android.gms.permission.AD_ID"/>
     <permission name="com.google.android.gms.permission.AD_ID_NOTIFICATION"/>
+    <permission name="com.google.android.gms.permission.CAR_FUEL"/>
+    <permission name="com.google.android.gms.permission.CAR_MILEAGE"/>
+    <permission name="com.google.android.gms.permission.CAR_SPEED"/>
+    <permission name="com.google.android.gms.permission.CAR_VENDOR_EXTENSION"/>
+    <permission name="com.google.android.gms.permission.READ_SETTINGS"/>
+    <permission name="com.google.android.gms.permission.WRITE_SETTINGS"/>
     <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.cp"/>
     <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.local"/>
     <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail"/>
