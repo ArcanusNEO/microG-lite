@@ -49,8 +49,10 @@
     <permission name="com.google.android.c2dm.permission.SEND" />
     <permission name="com.google.android.gms" />
     <permission name="com.google.android.gms.auth.api.phone.permission.SEND" />
+    <permission name="com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE" />
     <permission name="com.google.android.gms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <permission name="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK" />
+    <permission name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
     <permission name="com.google.android.gms.permission.AD_ID" />
     <permission name="com.google.android.gms.permission.AD_ID_NOTIFICATION" />
     <permission name="com.google.android.gms.permission.CAR_FUEL" />
