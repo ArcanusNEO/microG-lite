@@ -12,12 +12,15 @@
     <permission name="android.permission.BLUETOOTH_CONNECT" />
     <permission name="android.permission.BLUETOOTH_SCAN" />
     <permission name="android.permission.BODY_SENSORS" />
+    <permission name="android.permission.CAMERA" />
     <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST" />
     <permission name="android.permission.CHANGE_WIFI_STATE" />
     <permission name="android.permission.FAKE_PACKAGE_SIGNATURE" />
     <permission name="android.permission.FOREGROUND_SERVICE" />
     <permission name="android.permission.GET_ACCOUNTS" />
     <permission name="android.permission.INSTALL_LOCATION_PROVIDER" />
+    <permission name="android.permission.INTERACT_ACROSS_PROFILES" />
+    <permission name="android.permission.INTERACT_ACROSS_USERS" />
     <permission name="android.permission.INTERNET" />
     <permission name="android.permission.LOCATION_HARDWARE" />
     <permission name="android.permission.MANAGE_ACCOUNTS" />
@@ -47,7 +50,6 @@
     <permission name="android.permission.WRITE_SYNC_SETTINGS" />
     <permission name="com.google.android.c2dm.permission.RECEIVE" />
     <permission name="com.google.android.c2dm.permission.SEND" />
-    <permission name="com.google.android.gms" />
     <permission name="com.google.android.gms.auth.api.phone.permission.SEND" />
     <permission name="com.google.android.gms.auth.permission.GOOGLE_ACCOUNT_CHANGE" />
     <permission name="com.google.android.gms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
