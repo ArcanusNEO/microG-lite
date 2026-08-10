@@ -1,6 +1,6 @@
 # microG-lite
 
-**Summary**: This repo contains microG build assets ([source](https://microg.org/download.html)), it is based on the latest release "com.google.android.gms **0.3.15.250932**".
+**Summary**: This repo contains microG build assets ([source](https://microg.org/download.html)), it is based on the latest release "com.google.android.gms **0.3.16.252432**".
 
 module structure:
 #### /system/priv-app:
