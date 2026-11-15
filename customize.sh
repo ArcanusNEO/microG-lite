@@ -1,24 +1,16 @@
-#!/bin/bash
+#!/system/bin/sh
 
-if [ $ARCH = "arm" ]; then
-  # 32-bit
-  curl=$MODPATH/tools/curl/arm64eabi-v7a/curl
-else
-  # 64-bit
-  curl=$MODPATH/tools/curl/arm64-v8a/curl
-fi
-chmod 777 $curl
-
-echo "  ____________________________________________________  "
-echo " |                                                    | "
-echo " |    downloading microG Services Core...             | "
-mkdir -p "$MODPATH/system/priv-app/microGServicesCore"
-$curl -o "$MODPATH/system/priv-app/microGServicesCore/base.apk" -kL "https://github.com/microg/GmsCore/releases/download/v0.3.16.252432/com.google.android.gms-252432032.apk"
-echo " |                                                    | "
-echo " |    downloading microG Services Framework Proxy...  | "
-mkdir -p "$MODPATH/system/priv-app/microGServicesFrameworkProxy"
-$curl -o "$MODPATH/system/priv-app/microGServicesFrameworkProxy/base.apk" -kL "https://github.com/microg/GsfProxy/releases/download/v0.1.0/GsfProxy.apk"
-echo " |                                                    | "
-echo " |    Enjoy!                                          | "
-echo " |____________________________________________________| "
-echo
+ui_print "  ____________________________________________________  "
+ui_print " |                                                    | "
+ui_print " |   microG-lite installed.                           | "
+ui_print " |   This module ships framework files only,          | "
+ui_print " |   no APKs are bundled or downloaded.               | "
+ui_print " |                                                    | "
+ui_print " |   1. Install microG Services Core and GsfProxy     | "
+ui_print " |      as normal user apps                           | "
+ui_print " |   2. Run this module's Action in the Magisk app    | "
+ui_print " |      (apps that are not installed are skipped)     | "
+ui_print " |   3. Reboot and configure microG                   | "
+ui_print " |                                                    | "
+ui_print " |   Enjoy!                                           | "
+ui_print " |____________________________________________________| "
